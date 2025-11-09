@@ -67,6 +67,7 @@
 .post-excerpt {
     margin-top: 12px;
     word-break: break-word;
+    white-space: pre-line;
 }
 
 .has-serif-body:not([class*=" gh-font-body"]):not([class^="gh-font-body"]) .post-excerpt {
@@ -81,4 +82,13 @@
     .post-feed .post-title {
         font-size: 24px;
     }
+}
+
+figure.kg-image-card {
+    container-type: inline-size;
+}
+
+figure.kg-image-card img.kg-image {
+    max-height: 100cqw;
+    width: auto;
 }
